@@ -1,0 +1,28 @@
+Homelabbing Journey
+
+Hardware right now
+CPU: Intel I7-9700k
+RAM: 16GB DDR4 
+GPU: RTX 2070 SUPER
+SSD: 240GB HDD: 2TB 
+OS: Proxmox VE
+
+
+September 18th 2026
+Today I installed proxmox on my old gaming computer to replace it to become a home lab. At the time of this writing I’ve  caught an illness so reading and finding stuff was a lot harder
+
+I spent 20 minutes trying to understand why my old computer wouldn’t boot into Proxmox, only to realize I downloaded the wrong version.
+
+I’ve also updated the BIOS onto the motherboard and adjusted the settings to ensure visualization and GPU pass-through. It took me some time to read the manual but I had it down.
+Tools I learned today: ProxMox, Balenta Etcher
+
+September 19th 2026
+I was in the process of setting up my home server but turns out my MacBook was unable to connect to my server.
+I had to diagnose it to check whether or not if my Mac was trying to connect to the server for a completely different device
+
+After some diagnostics running commands such as ping and nc, to check if the server actually was up or not, it infact was. However, it appears that the server shared an IP with another device.
+
+As a result I had to configure the hostname and the ip address to something differently simply using the nano terminal and after rebooting it solved the issue.
+
+October 12th 2026
+forgot to write I had ChatGPT help me debug the problem. However I aim to do it myself when it comes to issues moving forward.
